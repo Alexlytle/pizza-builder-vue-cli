@@ -120,9 +120,9 @@
                      v-on:click="store.state.sauce ='noSauce',
                      store.state.noSauce = !store.state.noSauce,
                      store.state.traditionalRed = false,
-                         store.state.creamyGarlic = false,
-                          store.state.burgerSuace = false,
-                           store.state.oliveOilGarlic = false
+                     store.state.creamyGarlic = false,
+                     store.state.burgerSuace = false,
+                     store.state.oliveOilGarlic = false
                      "
                       class="">
     <div v-bind:class="[ store.state.sauce=== 'noSauce' && store.state.noSauce == true ? 'active' : '' ]"
